@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.all(8.0),
                 child: Consumer<Cart>(
                   builder: (context, cart, child) {
-                    return Text("${cart.totalPrice}");
+                    return Text("${cart.count}");
                   },
                 ),
               )
